@@ -12,6 +12,16 @@ Some utility classes, as ES6 module, to easily the DOM, even in front/back
 import HTML from '@lcf.vs/dom/html.js'
 
 const html = new HTML(document)
+
+const body = html.body({}, [
+  html.main({}, [
+    html.h1({}, [
+      html.text('Hello world')
+    ])
+  ])
+])
+
+console.log(html.stringify(body))
 ```
 
 ## <a name="api">API</a>
@@ -196,9 +206,7 @@ html.input(attributes = {})
 html.ins(attributes = {}, children = [])
 ```
 ```js
-html.kbd(attributes = {}, children = []))
-```
-```js
+html.kbd(attributes = {}, children = [])
 ```
 ```js
 html.label(attributes = {}, children = [])

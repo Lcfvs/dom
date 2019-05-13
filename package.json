@@ -1,6 +1,6 @@
 {
   "name": "@lcf.vs/dom",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Some utility classes, as ES6 module, to easily the DOM, even in front/back",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
