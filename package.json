@@ -1,0 +1,27 @@
+{
+  "name": "@lcf.vs/dom",
+  "version": "0.0.1",
+  "description": "Some utility classes, as ES6 module, to easily the DOM, even in front/back",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "dom.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcfvs/dom.git"
+  },
+  "keywords": [
+    "easily",
+    "manipulate",
+    "DOM",
+    "front",
+    "back",
+    "ES6"
+  ],
+  "author": "lcf.vs <michael.rouges@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lcfvs/dom/issues"
+  },
+  "homepage": "https://github.com/Lcfvs/dom#readme"
+}
